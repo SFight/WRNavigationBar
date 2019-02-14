@@ -25,6 +25,7 @@
 //    }
 //    BOOL isIPhoneX = [platform isEqualToString:@"iPhone10,3"] || [platform isEqualToString:@"iPhone10,6"];
 //    return isIPhoneX;
+    
     return [SWPhoneInfo isIphoneX];
 }
 + (CGFloat)navBarBottom {
